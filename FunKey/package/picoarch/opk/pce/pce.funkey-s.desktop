@@ -1,0 +1,17 @@
+[Desktop Entry]
+<<<<<<< HEAD:FunKey/package/mednafen/opk/pce/pce.funkey-s.desktop
+Type=Application
+Name=PC Engine
+Comment=PCE-TurboGrafx Emulator
+=======
+Name=PC-Engine
+Comment=PC-Engine CD-ROM/SuperGrafX emulator
+>>>>>>> 55ea0e60... Replaced default emulators by Libretro cores in RetroFE and GMenu2X frontends:FunKey/package/picoarch/opk/pce/pce.funkey-s.desktop
+Icon=pce
+Exec=/usr/games/launchers/pce_launch.sh %f
+Terminal=false
+X-OD-NeedsDownscaling=true
+Categories=emulators;
+selectorbrowser=true
+SelectorDir=/mnt/PCE-TurboGrafx
+SelectorFilter=zip,ZIP,pce,PCE,sgx,SGX,cue,CUE,chd,CHD

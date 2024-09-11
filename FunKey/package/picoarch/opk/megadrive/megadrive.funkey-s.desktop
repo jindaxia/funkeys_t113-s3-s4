@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=MegaDrive
+Comment=Sega Genesis/MegaDrive Emulator
+Icon=megadrive
+Exec=/usr/games/launchers/megadrive_launch.sh %f
+Terminal=false
+X-OD-NeedsDownscaling=true
+Categories=emulators;
+selectorbrowser=true
+SelectorDir=/mnt/Sega Genesis
+<<<<<<< HEAD:FunKey/package/picodrive/opk/megadrive/megadrive.funkey-s.desktop
+SelectorFilter=zip,ZIP,md,MD,bin,BIN,32x,32X,cue,CUE,cso,CSO,chd,CHD,smd,SMD
+=======
+SelectorFilter=zip,ZIP,md,MD,bin,BIN,32x,32X,cue,CUE,cso,CSO,chd,CHD,smd,SMD,gg,GG,sg,SG,sms,SMS
+>>>>>>> 55ea0e60... Replaced default emulators by Libretro cores in RetroFE and GMenu2X frontends:FunKey/package/picoarch/opk/megadrive/megadrive.funkey-s.desktop
